@@ -14,7 +14,7 @@
 ```
 
 ## 第一步：SDK 介绍
-smh_flutter_sdk 目前兼容支持iOS、Android。
+smh_flutter_sdk 目前支持iOS、Android。
 分为两个版本：
 |名称| 功能描述 |
 |:-----| :-----|
