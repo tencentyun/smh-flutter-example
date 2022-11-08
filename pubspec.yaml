@@ -1,0 +1,135 @@
+name: smh_flutter_sdk_example
+description: Demonstrates how to use the smh_flutter_sdk plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.21.0+1
+  # getX 或者用 provider
+  get:
+  # 本地持久化
+  shared_preferences:
+  # json格式化
+  json_annotation:
+  # 资源锁
+  synchronized:
+  # Toast提示
+  fluttertoast:
+  # 获取系统权限
+  permission_handler:
+  # 屏幕适配
+  flutter_screenutil:
+  wechat_assets_picker:
+  smh_flutter_sdk:
+    git:
+      url: https://github.com/tencentyun/smh-flutter-sdk.git
+      ref: '1.0.0'
+
+
+  path_provider:
+  file_picker:
+  pull_to_refresh:
+  webview_flutter:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  test: ^1.16.8
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/tabbar/tabbar_home.png
+    - assets/images/tabbar/tabbar_home_selected.png
+    - assets/images/tabbar/tabbar_transfer_selected.png
+    - assets/images/tabbar/tabbar_person.png
+    - assets/images/tabbar/tabbar_files.png
+    - assets/images/tabbar/tabbar_transfer.png
+    - assets/images/tabbar/tabbar_files_selected.png
+    - assets/images/tabbar/tabbar_person_selected.png
+    - assets/images/nav/nav_more.png
+    - assets/images/nav/nav_message.png
+    - assets/images/nav/nav_scan.png
+    - assets/images/nav/
+    - assets/images/tabbar/
+    - assets/images/
+    - assets/
+    - assets/images/nav/mine_message.png
+    - assets/images/nav/mine_transfer.png
+    - assets/images/nav/avatar.png
+    - assets/images/arrow_right.png
+    - assets/images/mine/mine_setting.png
+    - assets/images/mine/mine_clear.png
+    - assets/images/mine/mine_pc.png
+    - assets/images/mine/mine_fileicon.png
+    - assets/images/mine/mine_safelink.png
+    - assets/images/mine/mine_private.png
+    - assets/images/mine/mine_help.png
+    - assets/json/ECD_Login_Animation.json
+    - assets/images/img_login_bg.png
+    - assets/svg/Group 107.svg
+    - assets/icon_checkbox_unchecked.png
+    - assets/json/animation_login_img_0.png
+    - assets/json/animation_login_img_1.png
+    - assets/json/animation_login_img_2.png
+    - assets/images/nav/float_add.png
+    - assets/images/fileicon/
+    - assets/images/fileicon/ppt.png
+    - assets/images/fileicon/txt.png
+    - assets/images/fileicon/excel.png
+    - assets/images/fileicon/zip.png
+    - assets/images/fileicon/audio.png
+    - assets/images/fileicon/video.png
+    - assets/images/fileicon/ent.png
+    - assets/images/fileicon/pdf.png
+    - assets/images/fileicon/dir.png
+    - assets/images/fileicon/word.png
+    - assets/images/fileicon/pic.png
+    - assets/images/fileicon/other.png
+    - assets/images/fileicon/sharedir.png
+    - assets/images/fileicon/batchdir.png
+    - assets/images/orgicon.png
+    - assets/images/upload/
+    - assets/startprocess.png
+    - assets/restartprocess.png
+    - assets/pauseprocess.png
+    - assets/images/menu/
