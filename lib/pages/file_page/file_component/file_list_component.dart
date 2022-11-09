@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:smh_flutter_sdk/model/enum/smh_string_enum.dart';
 import 'package:smh_flutter_sdk/model/user_model/s_m_h_favorite_file_list_entity.dart';
 import 'package:smh_flutter_sdk/utils/extension_utils.dart';
 
@@ -44,7 +45,7 @@ class FileListComponent extends GetView<FileListComponentController> {
                               ? '  ' +
                                   int.parse(content.size ?? '0').sizeFormart()
                               : ''),
-                      content.fileType?.name ?? content.type?.name,
+                      content.fileType?.name ?? SMHFileType.dir.name,
                       menuCallback: () {
                         controller.clickFileMenu(content);
                       },

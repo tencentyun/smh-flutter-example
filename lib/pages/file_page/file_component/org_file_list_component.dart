@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:smh_flutter_sdk/model/enum/smh_string_enum.dart';
 import 'package:smh_flutter_sdk/utils/extension_utils.dart';
 
 import '../../../config/colours.dart';
@@ -111,7 +112,7 @@ class OrgFileListComponent extends GetView<OrgFileListComponentController> {
                                         int.parse(content.size ?? '0')
                                             .sizeFormart()
                                     : ''),
-                            content.fileType ?? content.type,
+                            content.fileType?.name ?? SMHFileType.dir.name,
                             menuCallback: () {
                               controller.clickFileMenu(content);
                             },
