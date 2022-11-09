@@ -684,7 +684,7 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "1.0.0"
+      ref: HEAD
       resolved-ref: b52937ce22c67112ad06b4130576aa58a917708e
       url: "https://github.com/tencentyun/smh_flutter_beacon_plugin.git"
     source: git
@@ -694,8 +694,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "609a68cfb3ce0cb03ba37a1dd0425c003cc5dd5e"
-      url: "https://github.com/tencentyun/smh-flutter-sdk.git"
+      resolved-ref: "23a3e90959e36a0e4b384de44eee3d2f232ee83e"
+      url: "https://github.com/tencentyun/smh_flutter_sdk.git"
     source: git
     version: "1.0.0"
   source_map_stack_trace:

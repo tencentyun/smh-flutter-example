@@ -21,7 +21,7 @@ class SMHFileMenu extends StatelessWidget {
     this.content = content;
     operations.add(SMHFileDetail());
 
-    if (content.type != SMHFileType.dir.name &&
+    if (content.type?.name != SMHFileType.dir.name &&
         content.authorityList?.canDownload == true) {
       operations.add(SMHFileDownload());
     }

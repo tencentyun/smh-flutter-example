@@ -86,7 +86,7 @@ class FileListComponentController extends GetxController with FileOption {
   }
 
   toDirDetail(SMHFileListContent content) {
-    if (content.type == SMHFileType.dir.name) {
+    if (content.type?.name == SMHFileType.dir.name) {
       Get.to(() => FileListPage(tag: content.path?.join('_')),
           binding: FileListBinding(tag: content.path?.join('_')),
           arguments: {

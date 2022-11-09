@@ -128,7 +128,7 @@ class OrgFileListComponentController extends GetxController with FileOption {
   toDirDetail(SMHFileListContent content) {
     SMHTeamInfoChildren team = SMHTeamInfoChildren();
     team.spaceId = spaceId;
-    if (content.type == SMHFileType.dir.name) {
+    if (content.type?.name == SMHFileType.dir.name) {
       Get.to(() => FileListPage(tag: content.path?.join('_')),
           binding: FileListBinding(tag: content.path?.join('_')),
           arguments: {
