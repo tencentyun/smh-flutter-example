@@ -29,13 +29,13 @@ smh_flutter_sdk 目前支持iOS、Android。
 ```
 smh_flutter_sdk:
     git: https://github.com/tencentyun/smh-flutter-sdk
-    ref: '1.0.0'
 ```
 
 #### 集成不含灯塔版本
 ```
 smh_flutter_sdk: 
-    git:
+    git: https://github.com/tencentyun/smh-flutter-sdk
+    ref: 'slim'
 ```
 
 ## 第三步：开始使用
