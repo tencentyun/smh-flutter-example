@@ -36,7 +36,7 @@ smh_flutter_sdk:
 ```
 smh_flutter_sdk:
     git:
-      url: https://github.com/tencentyun/smh-flutter-sdk.git
+      url: https://github.com/tencentyun/smh_flutter_sdk.git
 ```
 
 ## 第三步：开始使用
