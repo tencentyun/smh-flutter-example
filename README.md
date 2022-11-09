@@ -1,8 +1,8 @@
 本文介绍smh_flutter_sdk如何快速入门以及api介绍。
 
 ## 相关资源
-* sdk github 地址：https://github.com/tencentyun/smh-flutter-sdk
-* demo github 地址：https://github.com/tencentyun/smh-flutter-sdk-example
+* sdk github 地址：https://github.com/tencentyun/smh_flutter_sdk
+* demo github 地址：https://github.com/tencentyun/smh_flutter_example
 
 ## 准备工作
 
@@ -29,7 +29,7 @@ smh_flutter_sdk 目前支持iOS、Android。
 ```
 smh_flutter_sdk:
     git:
-      url: https://github.com/tencentyun/smh-flutter-sdk.git
+      url: https://github.com/tencentyun/smh_flutter_sdk.git
 ```
 
 #### 集成不含灯塔版本
@@ -37,7 +37,6 @@ smh_flutter_sdk:
 smh_flutter_sdk:
     git:
       url: https://github.com/tencentyun/smh-flutter-sdk.git
-      ref: 'slim'
 ```
 
 ## 第三步：开始使用
