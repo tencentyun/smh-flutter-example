@@ -694,7 +694,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "23a3e90959e36a0e4b384de44eee3d2f232ee83e"
+      resolved-ref: "897ebc0c5ead67e7e2d4b776b1e33e8a97161a43"
       url: "https://github.com/tencentyun/smh_flutter_sdk.git"
     source: git
     version: "1.0.0"
