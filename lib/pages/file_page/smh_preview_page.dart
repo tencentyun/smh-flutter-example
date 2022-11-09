@@ -26,7 +26,7 @@ class _SMHPreviewPageState extends State<SMHPreviewPage> {
   @override
   void initState() {
     content = Get.arguments['content'];
-    if (content.fileType == SMHFileType.video.name) {
+    if (content.fileType?.name == SMHFileType.video.name) {
       _getDownloadUrl();
     } else {
       _getPreviewUrl();
