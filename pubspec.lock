@@ -693,8 +693,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "1.0.0"
-      resolved-ref: a4bd9a96f73559f8054794469292ed21af11eb9a
+      ref: HEAD
+      resolved-ref: "609a68cfb3ce0cb03ba37a1dd0425c003cc5dd5e"
       url: "https://github.com/tencentyun/smh-flutter-sdk.git"
     source: git
     version: "1.0.0"

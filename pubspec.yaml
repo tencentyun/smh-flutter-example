@@ -47,7 +47,7 @@ dependencies:
   smh_flutter_sdk:
     git:
       url: https://github.com/tencentyun/smh-flutter-sdk.git
-      ref: '1.0.0'
+#      ref: 'slim'
 
 
   path_provider:
