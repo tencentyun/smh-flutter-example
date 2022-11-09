@@ -53,9 +53,10 @@ configSMH() {
     ..setAccessTokenRefreshHandle(CustomRefreshAccessTokenHander());
   SMHServicesManager().registerService(apiService);
 
-  SMHServicesManager().configHostWithEnv("host", SMHHostType.dev);
+  SMHServicesManager()
+      .configHostWithEnv("https://api.tencentsmh.cn/", SMHHostType.release);
 
-  SMHServicesManager().setupCurrentEnv(SMHHostType.dev);
+  SMHServicesManager().setupCurrentEnv(SMHHostType.release);
 }
 
 configBeacon() async {
