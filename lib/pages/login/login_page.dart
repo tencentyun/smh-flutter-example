@@ -61,6 +61,7 @@ class LoginPage extends GetView<LoginController> {
                           margin: EdgeInsets.only(left: 12),
                           height: 44,
                           child: TextField(
+                            enableInteractiveSelection: false,
                             maxLines: 1,
                             controller: phoneEditController,
                             cursorColor: Colours.themeColor,
@@ -114,6 +115,7 @@ class LoginPage extends GetView<LoginController> {
                           ),
                           height: 44,
                           child: TextField(
+                            enableInteractiveSelection: false,
                             controller: codeEditController,
                             cursorColor: Colours.themeColor,
                             keyboardType: TextInputType.number,

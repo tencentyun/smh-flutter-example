@@ -100,6 +100,7 @@ class FileListController extends GetxController with FileOption {
           binding: FileListBinding(tag: content.path?.join('_')),
           arguments: {
             'content': content,
+            'team': team,
           },
           preventDuplicates: false,
           id: content.id);

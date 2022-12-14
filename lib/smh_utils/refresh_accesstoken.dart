@@ -15,7 +15,9 @@ class CustomRefreshAccessTokenHander extends SMHRefreshAccessTokenHander {
         response = await SMHUserSpaceApis.getUserInfoAndAccessToken(
             organizationId: User.currentUser.organizationId!,
             userToken: User.currentUser.userToken!);
-      } catch (e) {}
+      } catch (e) {
+        throw (e);
+      }
       updateAccessToken(response?.data);
       return response?.data;
     } else {
@@ -26,7 +28,9 @@ class CustomRefreshAccessTokenHander extends SMHRefreshAccessTokenHander {
             userToken: User.currentUser.userToken!,
             spaceId: spaceId,
             spaceOrgId: spaceOrgId);
-      } catch (e) {}
+      } catch (e) {
+        throw (e);
+      }
       updateAccessToken(response?.data);
       return response?.data;
     }
