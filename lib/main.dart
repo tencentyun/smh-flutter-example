@@ -54,7 +54,7 @@ configSMH() {
   SMHServicesManager().registerService(apiService);
 
   SMHServicesManager()
-      .configHostWithEnv("https://api.dev.tencentsmh.cn/", SMHHostType.release);
+      .configHostWithEnv("https://api.tencentsmh.cn/", SMHHostType.release);
 
   SMHServicesManager().setupCurrentEnv(SMHHostType.release);
 }
